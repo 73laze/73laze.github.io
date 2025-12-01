@@ -7,13 +7,13 @@ header {
 /* font */
 @font-face {
     font-family: Adventurer;
-    src: url("Adventurer.ttf");
+    src: url("/images/");
 }
 
 /* body styling */
 body {
     background-color: black;
-    background-image:url("metal014.jpg");
+    background-image:url("/images/metal014.jpg");
     height:100%
     background-repeat: repeat;
 }
