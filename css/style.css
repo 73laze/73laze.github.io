@@ -7,15 +7,16 @@ header {
 /* font */
 @font-face {
     font-family: Adventurer;
-    src: url("images/Adventurer.ttf");
+    src: url("../images/Adventurer.ttf");
+     font-style: normal;
 }
 
 /* body styling */
 body {
     background-color: black;
-    background-image:url("images/metal014.jpg");
-    height:100%
+    background-image:url("../images/metal014.jpg");
     background-repeat: repeat;
+    height:100%
 }
 
 /* h styling */
