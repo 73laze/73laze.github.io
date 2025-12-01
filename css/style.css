@@ -63,6 +63,5 @@ li a {
   transform: translate(-50%, -50%);
   width: 650px;
   height: 100%;
-  z-index: 1;
   margin-top: 100px;
 }
