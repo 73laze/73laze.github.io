@@ -7,7 +7,7 @@ header {
 /* font */
 @font-face {
     font-family: Adventurer;
-    src: url("/images/");
+    src: url("/images/Adventurer.ttf");
 }
 
 /* body styling */
