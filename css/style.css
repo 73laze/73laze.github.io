@@ -7,13 +7,13 @@ header {
 /* font */
 @font-face {
     font-family: Adventurer;
-    src: url(https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=195);
+    src: url(Adventurer.ttf);
 }
 
 /* body styling */
 body {
     background-color: black;
-    background-image:url(https://i.ibb.co/xjLFMqm/metal014.jpg);
+    background-image:url(metal014.jpg);
     height:100%
     background-repeat: repeat;
 }
