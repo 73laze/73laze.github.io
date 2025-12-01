@@ -17,7 +17,6 @@ body {
     background-image:url('../images/metal030.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
     z-index: 0;
 }
 
