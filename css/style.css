@@ -4,11 +4,19 @@ header {
     text-align: center;
     width: fit-content;
 }
+/* font */
+@font-face {
+    font-family: Adventurer;
+    src: url(https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=195)
+}
 
 /* body styling */
 body {
-    font-family: Liberation, monospace;
     background-color: black;
+    background-image: https://github.com/73laze/73laze.github.io/blob/c2fe99f5dbe7344ac8593eb2d6af145486848c36/images/metal014.jpg;
+    height:100%
+    background-repeat: repeat;
+
 
 }
 
@@ -50,6 +58,7 @@ li a {
 /* centering webpage */
 
 .home {
+  font-family: Adventurer;
   position: absolute;
   top: 50%;
   left: 50%;
