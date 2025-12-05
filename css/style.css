@@ -82,4 +82,9 @@ li {
   align-items: center;
 }
 
+.status {
+    background-color: black;
+    padding: 5px;
+}
+
 
