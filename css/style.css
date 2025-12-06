@@ -53,9 +53,6 @@ img {
     color: rgb(233, 199, 112);
  }
 
-li a {
-    color:darkgoldenrod
-}
 
 /* centering webpage */
 
@@ -79,6 +76,21 @@ li a {
 .status {
     background-color: black;
     padding: 5px;
+    border-style: ridge;
+
+    li {
+        border-style: ridge;
+        border-color: brown;
+        padding: 10px;
+    }
 }
 
+.navbar {
+    border-style: ridge;
+    padding: 10px;
+
+    li a { 
+     color:darkgoldenrod;
+    }
+}
 
