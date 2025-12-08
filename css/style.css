@@ -83,6 +83,10 @@ img {
         border-color: brown;
         padding: 10px;
     }
+
+    a {
+        color:silver
+    }
 }
 
 .navbar {
