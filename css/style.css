@@ -40,8 +40,8 @@ p {
 img {
     display: block;
     margin: 0 auto;
-    width: 200%;
-    height: 300%;/* Optional: set a specific width */
+    width: 100%;
+    height: 100%;/* Optional: set a specific width */
 }
 
 /* ul styling */
