@@ -1,9 +1,4 @@
-/* header styling */
-header {
-    margin-top: 100px;
-    text-align: center;
-    width: fit-content;
-}
+
 /* font */
 @font-face {
     font-family: SourceCodePro-VariableFont_wght;
@@ -38,67 +33,94 @@ p {
 
 /*img styling */
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 300px;
-    padding-right: 1400px;
+    position: absolute;
+    top: 3;
+    left: 0;
+    padding-top:12px;
+    padding-left:5px;
   }
 
 /* ul styling */
- ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: left;
     color: rgb(233, 199, 112);
  }
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 
 /* centering webpage */
 
-.home {
-  font-family: SourceCodePro-VariableFont_wght;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 650px;
-  height: 100%;
-  margin-top: 150px;
-}
 
  .audio {
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 1000px;
-    padding-left: 1500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 130px;
 }
 
 .status {
     background-color: black;
-    padding: 5px;
+    font-family: SourceCodePro-VariableFont_wght;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 100%;
+    margin-top: 150px;
+    border: 3px;
     border-style: ridge;
 
     li {
         border-style: ridge;
         border-color: white;
         padding: 10px;
+        text-align: left;
     }
 
     li a {
         color:silver;
+        text-align: left;
     }
 }
 
 .navbar {
-    background-color:black;
-    border-style: ridge;
-    padding: 10px;
 
     li a { 
      color:darkgoldenrod;
     }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    }
+
+    ul li {
+    float: right;
+    }
+
+    ul li a {
+    display: block;
+    color: rgb(233, 199, 112);
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    }
+
 }
 
