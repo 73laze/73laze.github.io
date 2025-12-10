@@ -6,8 +6,8 @@ header {
 }
 /* font */
 @font-face {
-    font-family: Adventurer;
-    src: url('Adventurer.ttf') format("TrueType");
+    font-family: battlenet;
+    src: url('battlenet.ttf') format("TrueType");
     font-style: normal;
 }
 
@@ -57,7 +57,7 @@ img {
 /* centering webpage */
 
 .home {
-  font-family: Adventurer;
+  font-family: battlenet;
   position: absolute;
   top: 50%;
   left: 50%;
