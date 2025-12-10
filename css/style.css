@@ -90,6 +90,7 @@ img {
 }
 
 .navbar {
+    background-color:black;
     border-style: ridge;
     padding: 10px;
 
