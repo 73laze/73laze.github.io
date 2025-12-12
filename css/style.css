@@ -1,20 +1,19 @@
-
-/* font */
 @font-face {
-    font-family: SourceCodePro-VariableFont_wght;
+    font-family: SourceCodePro-VariableFont_wght; 
     src: url('SourceCodePro-VariableFont_wght') format("TrueType");
     font-style: normal;
 }
 
-/* body styling */
 body {
+    font-family: SourceCodePro-VariableFont_wght;
+    src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
+    font-style: normal;
     background-color: black;
     background-image:url('../images/squared-metal.png');
     background-repeat: repeat;
-    z-index: 0;
 }
 
-/* h styling */
+
 h6 {
     text-align: center;
     color: rgb(233, 199, 112);
@@ -25,14 +24,17 @@ h1 {
     color: rgb(233, 199, 112);
 }
 
-/* p styling */
+h2 {
+    color:rgb(233, 199, 112);
+}
+
 p { 
     text-align: left;
     color: rgb(233, 199, 112);
 }
 
-/*img styling */
-img {
+
+#nav {
     position: absolute;
     top: 3;
     left: 0;
@@ -40,16 +42,10 @@ img {
     padding-left:5px;
   }
 
-/* ul styling */
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     color: rgb(233, 199, 112);
- }
-
-ul li {
-  float: right;
 }
 
 ul li a {
@@ -60,41 +56,10 @@ ul li a {
 }
 
 
-/* centering webpage */
-
-
- .audio {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-top: 130px;
+header {
+    display: block;
 }
 
-.status {
-    background-color: black;
-    font-family: SourceCodePro-VariableFont_wght;
-    position: absolute;
-    top: 50%;
-    left: 23%;
-    transform: translate(-50%, -50%);
-    width: 750px;
-    height: 100%;
-    margin-top: 150px;
-    border: 3px;
-    border-style: ridge;
-
-    li {
-        border-style: ridge;
-        border-color: white;
-        padding: 10px;
-        text-align: left;
-    }
-
-    li a {
-        color:silver;
-        text-align: left;
-    }
-}
 
 .navbar {
 
@@ -118,7 +83,110 @@ ul li a {
     display: block;
     color: rgb(233, 199, 112);
     text-align: center;
-    padding: 50px 16px;
+    padding: 50px 20px;
+    text-decoration: none;
+    }
+
+}
+
+
+ .audio {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 130px;
+}
+
+#left-column {
+    float:left;
+    max-width: 250px;
+    padding-top: 20px;
+}
+.todo-box {
+    display: block;
+    overflow-y: scroll;
+    max-height: 250px;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
+    padding-bottom: 20px;
+
+    ul li {
+        list-style-type: square;
+        padding: 5px;
+        list-style: circle;
+    }
+}
+
+.devlogbox {
+    display: block;
+    overflow-y: scroll;
+    max-height: 330px;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
+
+    ul li {
+        list-style-type: square;
+        padding: 15px;
+        list-style: circle;
+        border: solid;
+        border-radius: 30px;
+    }
+}
+
+.status {
+    font-family: SourceCodePro-VariableFont_wght;
+    src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
+    font-style: normal;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100%;
+    margin-top: 150px;
+
+
+    li {
+        display: inline-block;
+        list-style-position: outside;
+        border: 2px;
+        border-style: ridge;
+        border-color: white;
+        padding: 10px;
+        background-color: black;
+        text-align: justify;
+    }
+
+    li a {
+        color:silver;
+    }
+
+}
+
+.navbar {
+
+    li a { 
+     color:darkgoldenrod;
+    }
+    
+    ul li {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    }
+
+    ul li a {
+    display: block;
+    color: rgb(233, 199, 112);
+    text-align: center;
+    padding: 50px 20px;
     text-decoration: none;
     }
 
