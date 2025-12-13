@@ -138,18 +138,30 @@ header {
 }
 
 #middle-shit {
-    float:center;
-    max-width: 1500px;
+    display:flex;
+    max-width: 1100px;
     padding-top: 20px;
 }
 
 .status-box {
-    display:block;
     overflow-y:scroll;
-    max-height:100px;
+    max-height:150px;
+    border:solid;
+    border-style: ridge;
+    border-color: silver;
+    background-color: black;
 
+    ul li {
+        list-style-type: none;
+        padding: 15px;
+    }
 }
 
+#pfp {
+    width: 1000px;
+    border: solid;
+    border-color:silver;
+}
 
 .navbar {
 
