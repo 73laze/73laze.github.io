@@ -137,35 +137,19 @@ header {
     }
 }
 
-.status {
-    font-family: SourceCodePro-VariableFont_wght;
-    src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
-    font-style: normal;
-    position: absolute;
-    top: 100%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 100%;
-    margin-top: 150px;
+#middle-shit {
+    float:center;
+    max-width: 1500px;
+    padding-top: 20px;
+}
 
-
-    li {
-        display: inline-block;
-        list-style-position: outside;
-        border: 2px;
-        border-style: ridge;
-        border-color: white;
-        padding: 10px;
-        background-color: black;
-        text-align: justify;
-    }
-
-    li a {
-        color:silver;
-    }
+.status-box {
+    display:block;
+    overflow-y:scroll;
+    max-height:100px;
 
 }
+
 
 .navbar {
 
