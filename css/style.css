@@ -90,17 +90,11 @@ header {
 }
 
 
- .audio {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-top: 130px;
-}
-
 #left-column {
     float:left;
     max-width: 250px;
     padding-top: 20px;
+    padding-left: 250px;
 }
 .todo-box {
     display: block;
@@ -138,8 +132,8 @@ header {
 }
 
 #middle-shit {
-    display:flex;
-    max-width: 1100px;
+    display:inline-flex;
+    max-width: 865px;
     padding-top: 20px;
 }
 
@@ -163,6 +157,28 @@ header {
     border-color:silver;
 }
 
+#right-column {
+    float:right;
+    max-width: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+}
+.current {
+    display:block;
+    overflow-y: scroll;
+    max-height: 250px;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
+    padding-bottom: 20px;
+
+    ul li {
+        list-style-type: square;
+        padding: 5px;
+        list-style: circle;
+    }
+}
 .navbar {
 
     li a { 
@@ -187,4 +203,5 @@ header {
     }
 
 }
+
 
