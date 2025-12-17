@@ -3,7 +3,6 @@
     src: url('SourceCodePro-VariableFont_wght') format("TrueType");
     font-style: normal;
 }
-
 body {
     font-family: SourceCodePro-VariableFont_wght;
     src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
@@ -12,28 +11,21 @@ body {
     background-image:url('../images/squared-metal.png');
     background-repeat: repeat;
 }
-
-
 h6 {
     text-align: center;
     color: rgb(233, 199, 112);
 }
-
 h1 {
     text-align: center;
     color: rgb(233, 199, 112);
 }
-
 h2 {
     color:rgb(233, 199, 112);
 }
-
 p { 
     text-align: left;
     color: rgb(233, 199, 112);
 }
-
-
 #nav {
     position: absolute;
     top: 3;
@@ -41,32 +33,24 @@ p {
     padding-top:12px;
     padding-left:5px;
   }
-
 ul {
     margin: 0;
     padding: 0;
     color: rgb(233, 199, 112);
 }
-
 ul li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
 header {
     display: block;
 }
-
-
 .navbar {
-
     li a { 
      color:darkgoldenrod;
     }
-    
     ul {
     list-style-type: none;
     margin: 0;
@@ -74,11 +58,9 @@ header {
     overflow: hidden;
     background-color:black;
     }
-
     ul li {
     float: right;
     }
-
     ul li a {
     display: block;
     color: rgb(233, 199, 112);
@@ -86,10 +68,7 @@ header {
     padding: 50px 20px;
     text-decoration: none;
     }
-
 }
-
-
 #left-column {
     float:left;
     max-width: 250px;
@@ -97,73 +76,6 @@ header {
     padding-left: 250px;
 }
 .todo-box {
-    display: block;
-    overflow-y: scroll;
-    max-height: 250px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-    padding-bottom: 20px;
-
-    ul li {
-        list-style-type: square;
-        padding: 5px;
-        list-style: circle;
-    }
-}
-
-.devlogbox {
-    display: block;
-    overflow-y: scroll;
-    max-height: 330px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-
-    ul li {
-        list-style-type: square;
-        padding: 15px;
-        list-style: circle;
-        border: solid;
-        border-radius: 30px;
-    }
-}
-
-#middle-shit {
-    display:inline-flex;
-    max-width: 865px;
-    padding-top: 20px;
-}
-
-.status-box {
-    overflow-y:scroll;
-    max-height:150px;
-    border:solid;
-    border-style: ridge;
-    border-color: silver;
-    background-color: black;
-
-    ul li {
-        list-style-type: none;
-        padding: 15px;
-    }
-}
-
-#pfp {
-    width: 1000px;
-    border: solid;
-    border-color:silver;
-}
-
-#right-column {
-    float:right;
-    max-width: 250px;
-    padding-right: 250px;
-    padding-top: 20px;
-}
-.current {
     display:block;
     overflow-y: scroll;
     max-height: 250px;
@@ -179,29 +91,82 @@ header {
         list-style: circle;
     }
 }
-.navbar {
+.devlogbox {
+    display:block;
+    overflow-y: scroll;
+    max-height: 330px;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
 
-    li a { 
-     color:darkgoldenrod;
-    }
-    
     ul li {
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:black;
+        list-style-type: square;
+        padding: 15px;
+        list-style: circle;
+        border: solid;
+        border-radius: 30px;
     }
+}
+#middle-top {
+    display: inline-flex;
+    max-width: 860px;
+    padding-top: 20px;
+}
+.status-box {
+    overflow-y:scroll;
+    max-height:150px;
+    border:solid;
+    border-style: ridge;
+    border-color: silver;
+    background-color: black;
 
-    ul li a {
+    ul li {
+        list-style-type: none;
+        padding: 15px;
+    }
+}
+#middle-rest{
+    display:inline-flex;
+    max-width: 860px;
+    clear: right;
+}
+.traveler {
+    overflow-y: scroll;
+    max-height:fit-content;
+    border:solid;
+    border-style: ridge;
+    border-color: silver;
+    background-color: black;
+}
+img {
+    max-width: 100%;
+}
+#pfp {
+    width:1000px;
+    border: solid;
+    border-color:silver;
+}
+#right-column {
+    float:right;
+    max-width: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+}
+.current {
     display: block;
-    color: rgb(233, 199, 112);
-    text-align: center;
-    padding: 50px 20px;
-    text-decoration: none;
-    }
+    overflow-y: scroll;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
+    padding-bottom: 20px;
 
+    ul li {
+        list-style-type: square;
+        padding: 5px;
+        list-style: circle;
+    }
 }
 
 
