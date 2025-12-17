@@ -8,7 +8,7 @@ body {
     src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
     font-style: normal;
     background-color: black;
-    background-image:url('../images/squared-metal.png');
+    background-image:url('../images/num.gif');
     background-repeat: repeat;
 }
 h6 {
@@ -20,6 +20,9 @@ h1 {
     color: rgb(233, 199, 112);
 }
 h2 {
+    color:rgb(233, 199, 112);
+}
+h4 {
     color:rgb(233, 199, 112);
 }
 p { 
@@ -43,16 +46,13 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-header {
- 
-}
 .navbar {
     li a { 
      color:darkgoldenrod;
     }
     ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color:black;
@@ -93,7 +93,7 @@ header {
 .devlogbox {
     display:block;
     overflow-y: scroll;
-    max-height: 330px;
+    max-height: 366px;
     background-color: black;
     border: solid;
     border-style: ridge;
@@ -107,12 +107,13 @@ header {
         border-radius: 30px;
     }
 }
-#middle-top {
-    display: inline-flex;
+#middle-shit {
+    float:left;
     max-width: 860px;
     padding-top: 20px;
 }
 .status-box {
+    display:block;
     overflow-y:scroll;
     max-height:150px;
     border:solid;
@@ -125,14 +126,10 @@ header {
         padding: 15px;
     }
 }
-#middle-rest{
-    display:inline-flex;
-    max-width: 860px;
-    clear: right;
-}
+
 .traveler {
+    display:block;
     overflow-y: scroll;
-    max-height:fit-content;
     border:solid;
     border-style: ridge;
     border-color: silver;
@@ -142,19 +139,19 @@ img {
     max-width: 100%;
 }
 #pfp {
-    width:1000px;
     border: solid;
     border-color:silver;
 }
 #right-column {
-    float:right;
+    float:left;
     max-width: 250px;
     padding-right: 250px;
     padding-top: 20px;
 }
-.current {
+.current1 {
     display: block;
     overflow-y: scroll;
+    max-height:250px;
     background-color: black;
     border: solid;
     border-style: ridge;
@@ -167,5 +164,34 @@ img {
         list-style: circle;
     }
 }
+.current2 {
+    display: block;
+    overflow-y: scroll;
+    max-height:250px;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
+    padding-bottom: 20px;
 
+    ul li {
+        list-style-type: square;
+        padding: 5px;
+        list-style: circle;
+    }
+}
+.friends {
+    display: block;
+    overflow-y: scroll;
+    max-height:250px;
+    background-color: black;
+    border: solid;
+    border-style: ridge;
+    border-color: silver;
+    padding-bottom: 20px;
+    
+    li a {
+        color: snow;
+    }
+}
 
