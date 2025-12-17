@@ -39,13 +39,12 @@ ul {
     color: rgb(233, 199, 112);
 }
 ul li a {
-  display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 header {
-    display: block;
+ 
 }
 .navbar {
     li a { 
