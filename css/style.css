@@ -8,7 +8,6 @@ body {
     src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
     font-style: normal;
     background-color: black;
-    background-image:url('../images/num.gif');
     background-repeat: repeat;
 }
 h6 {
@@ -20,7 +19,7 @@ h1 {
     color: rgb(233, 199, 112);
 }
 h2 {
-    color:rgb(233, 199, 112);
+    color:grey;
     text-align: center;
 }
 h4 {
@@ -94,15 +93,15 @@ ul li a {
     padding-left: 250px;
     padding-top: 100px;
     border: solid;
-    border-color:yellow;
     height:1500px;
     width:1600px;
 }
 .aside1 {
+    margin-top: 225px;
     max-width: 250px;
     height: 300px;
     overflow-y: scroll;
-    border:solid;
+    border-style:ridge;
     border-color:snow;
     ul li {
         padding: 5px;
@@ -175,18 +174,10 @@ ul li a {
 .status {
   width:875px;
   height:150px;
-   border:solid;
-    border-style: ridge;
-    border-color: snow;
+  padding-left:195px;
 }
 
-.statusgif {
-    position: absolute;
-}
-.statusgif img {
-    width:100px;
-    height:100px;
-}
+
 .friendbox {
     width:250px;
     max-height: 400px;
@@ -197,4 +188,14 @@ ul li a {
     li a {
         color: red;
     }
+}
+.travelerimg {
+  width:875px;
+  height:150px;
+  padding-left:150px;
+  padding-bottom:20px;
+}
+#sf {
+    width: 200px;
+    padding-bottom: 50px;
 }
