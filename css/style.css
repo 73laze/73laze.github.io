@@ -8,6 +8,7 @@ body {
     src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
     font-style: normal;
     background-color:black;
+    background-image: url("/images/num.gif");
     background-repeat: repeat;
 }
 h6 {
@@ -44,7 +45,6 @@ ul li a {
 
 .navbar-wrapper{
     display:flex;
-    background-color: black;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -86,23 +86,24 @@ ul li a {
 
 .wrapper {
     flex-direction: column;
-    gap: 25px;
     align-content:start;
     display:flex;
     flex-wrap: wrap;
     padding-left: 250px;
     padding-top: 100px;
     border: solid;
+    border-color: yellow;
     height:1500px;
     width:1600px;
 }
 .aside1 {
-    margin-top: 225px;
+    margin-top: 50px;
     max-width: 250px;
     height: 300px;
     overflow-y: scroll;
+    overflow-x: hidden;
     border-style:ridge;
-    border-color:snow;
+    border-color:grey;
     ul li {
         padding: 5px;
         color:darkgoldenrod;
@@ -110,10 +111,11 @@ ul li a {
 }
 .aside2 {
     max-width: 250px;
-    height: 300px;
+    height: 500px;
     overflow-y: scroll;
+    overflow-x: hidden;
     border:solid;
-    border-color:snow;
+    border-color:grey;
     ul li {
         padding: 15px;
         border: solid;
@@ -122,14 +124,32 @@ ul li a {
         color:darkgoldenrod;
     }
 }
+.aside1 img {
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    border:solid;
+    border-color:grey;
+}
+
+.aside2 img {
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    border:solid;
+    border-color:grey;
+}
 .middle{
 
     overflow-y: scroll;
     margin-top: 50px;
     width:875px;
-    height:250px;
+    height:400px;
     border: solid;
-    border-color:snow;
+    border-color:grey;
+    background-color: black;
 
     ul li {
         list-style-type: none;
@@ -160,7 +180,7 @@ ul li a {
     max-height: 400px;
     overflow-y: scroll;
     border:solid;
-    border-color:snow;
+   border-color:grey;
 }
 .traveler {
     width:875px;
@@ -168,7 +188,7 @@ ul li a {
     overflow-y: scroll;
     border:solid;
     border-style: ridge;
-    border-color: snow;
+    border-color:grey;
 }
 
 .traveler img {
@@ -178,6 +198,10 @@ ul li a {
   width:875px;
   height:150px;
   padding-left:195px;
+position: sticky;
+    top: 0;
+    border:solid;
+    border-color:grey;
 }
 
 
@@ -186,7 +210,7 @@ ul li a {
     max-height: 400px;
     overflow-y: scroll;
     border:ridge;
-    border-color:snow;
+   border-color:grey;
 
     li a {
         color: red;
