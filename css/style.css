@@ -7,7 +7,7 @@ body {
     font-family: SourceCodePro-VariableFont_wght;
     src: url('SourceCodePro-VariableFont_wght.ttf') format("TrueType");
     font-style: normal;
-    background-color: black;
+    background-color:black;
     background-repeat: repeat;
 }
 h6 {
@@ -105,6 +105,7 @@ ul li a {
     border-color:snow;
     ul li {
         padding: 5px;
+        color:darkgoldenrod;
     }
 }
 .aside2 {
@@ -118,6 +119,7 @@ ul li a {
         border: solid;
         border-radius: 30px;
         padding-left: 5px;
+        color:darkgoldenrod;
     }
 }
 .middle{
@@ -132,6 +134,7 @@ ul li a {
     ul li {
         list-style-type: none;
         padding: 15px;
+        color:darkgoldenrod;
     }
 }
 .pfpwrapper {
