@@ -21,21 +21,17 @@ h1 {
 }
 h2 {
     color:rgb(233, 199, 112);
+    text-align: center;
 }
 h4 {
     color:rgb(233, 199, 112);
+    text-align: center;
 }
 p { 
     text-align: left;
     color: rgb(233, 199, 112);
 }
-#nav {
-    position: absolute;
-    top: 3;
-    left: 0;
-    padding-top:12px;
-    padding-left:5px;
-  }
+
 ul {
     margin: 0;
     padding: 0;
@@ -46,7 +42,16 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-.navbar {
+
+.navbar-wrapper{
+    display:flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1850px;
+    
+    
     li a { 
      color:darkgoldenrod;
     }
@@ -57,141 +62,115 @@ ul li a {
     overflow: hidden;
     background-color:black;
     }
-    ul li {
-    float: right;
-    }
+
     ul li a {
-    display: block;
-    color: rgb(233, 199, 112);
     text-align: center;
     padding: 50px 20px;
     text-decoration: none;
     }
 }
-#left-column {
-    float:left;
-    max-width: 250px;
-    padding-top: 20px;
-    padding-left: 250px;
-}
-.todo-box {
-    display:block;
-    overflow-y: scroll;
-    max-height: 250px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-    padding-bottom: 20px;
 
+.navbar-logo-wrapper {
+    flex: 1;
+}
+.navbar-logo-wrapper img {
+    align-items: left;
+    height: auto; 
+}
+
+.navbar-links {
+    margin:auto;
+}
+.navbar-links li {
+    float:right;
+}
+
+.wrapper {
+    gap: 25px;
+    align-content:start;
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-top: 50px;
+    border: solid;
+    border-color:yellow;
+    height:1500px;
+    width:1600px;
+}
+.aside1 {
+    max-width: 250px;
+    max-height: 300px;
+    overflow-y: scroll;
+    border:solid;
+    border-color:snow;
     ul li {
-        list-style-type: square;
         padding: 5px;
-        list-style: circle;
     }
 }
-.devlogbox {
-    display:block;
+.aside2 {
+    max-width: 250px;
+    max-height: 400px;
     overflow-y: scroll;
-    max-height: 366px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-
+    border:solid;
+    border-color:snow;
     ul li {
-        list-style-type: square;
         padding: 15px;
-        list-style: circle;
         border: solid;
         border-radius: 30px;
+        padding-left: 5px;
     }
 }
-#middle-shit {
-    float:left;
-    max-width: 860px;
-    padding-top: 20px;
-}
-.status-box {
-    display:block;
-    overflow-y:scroll;
-    max-height:150px;
-    border:solid;
-    border-style: ridge;
-    border-color: silver;
-    background-color: black;
+.middle{
+    margin-top:50px;
+    width:875px;
+    padding-top: px;
+    height:200px;
+    overflow-y: scroll;
+    border: solid;
+    border-color:snow;
 
     ul li {
         list-style-type: none;
         padding: 15px;
     }
 }
+.pfpwrapper {
+    border:solid;
+    border-color:snow;
+    height: 280px;
+    width:175px;
+}
 
+.pfpwrapper img {
+   width: 100%; 
+   height: 100%;
+   object-fit: cover;
+}
+.break1 {
+    flex-basis: 100%;
+    height:0;
+}
+.aside3{
+    max-width: 250px;
+    max-height: 400px;
+    overflow-y: scroll;
+    border:solid;
+    border-color:snow;
+}
 .traveler {
-    display:block;
+    width:875px;
+    height: 500px;
     overflow-y: scroll;
     border:solid;
     border-style: ridge;
-    border-color: silver;
-    background-color: black;
+    border-color: snow;
 }
-img {
+
+.traveler img {
     max-width: 100%;
 }
-#pfp {
-    border: solid;
-    border-color:silver;
+.status {
+    position: absolute;
+    right:30px;
+    padding-top: 50px;
 }
-#right-column {
-    float:left;
-    max-width: 250px;
-    padding-right: 250px;
-    padding-top: 20px;
-}
-.current1 {
-    display: block;
-    overflow-y: scroll;
-    max-height:250px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-    padding-bottom: 20px;
-
-    ul li {
-        list-style-type: square;
-        padding: 5px;
-        list-style: circle;
-    }
-}
-.current2 {
-    display: block;
-    overflow-y: scroll;
-    max-height:250px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-    padding-bottom: 20px;
-
-    ul li {
-        list-style-type: square;
-        padding: 5px;
-        list-style: circle;
-    }
-}
-.friends {
-    display: block;
-    overflow-y: scroll;
-    max-height:250px;
-    background-color: black;
-    border: solid;
-    border-style: ridge;
-    border-color: silver;
-    padding-bottom: 20px;
-    
-    li a {
-        color: snow;
-    }
-}
-
