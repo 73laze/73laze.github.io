@@ -142,16 +142,17 @@ ul li a {
     border-color:grey;
 }
 .middle{
-
+    overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 50px;
     width:875px;
-    height:400px;
+    height:500px;
     border: solid;
     border-color:grey;
     background-color: black;
 
     ul li {
+        margin-top: 50px;
         list-style-type: none;
         padding: 15px;
         color:darkgoldenrod;
@@ -184,7 +185,8 @@ ul li a {
 }
 .traveler {
     width:875px;
-    height: 500px;
+    height: 700px;
+    overflow-x: hidden;
     overflow-y: scroll;
     border:solid;
     border-style: ridge;
@@ -198,10 +200,11 @@ ul li a {
   width:875px;
   height:150px;
   padding-left:195px;
-position: sticky;
-    top: 0;
-    border:solid;
-    border-color:grey;
+  position: sticky;
+  top: 0;
+  background-color:black;
+  border: solid;
+  border-color:grey;
 }
 
 
@@ -217,10 +220,14 @@ position: sticky;
     }
 }
 .travelerimg {
+  border:solid;
+  border-color:grey;
   width:875px;
-  height:150px;
+  height:190px;
   padding-left:150px;
-  padding-bottom:20px;
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
 #sf {
     width: 200px;
