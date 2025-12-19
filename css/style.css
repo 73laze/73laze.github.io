@@ -89,6 +89,8 @@ ul li a {
     align-content:start;
     display:flex;
     flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
     padding-left: 250px;
     padding-top: 100px;
     height:2005px;
@@ -245,7 +247,7 @@ ul li a {
 
     h4 {
         margin: 25px;
-        color: red;
+        color: darkred;
     }
     
 }
@@ -349,7 +351,7 @@ ul li a {
     }
 
     li a {
-         color: red;
+         color:green;
     }
 }
 
