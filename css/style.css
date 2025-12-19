@@ -91,22 +91,24 @@ ul li a {
     flex-wrap: wrap;
     padding-left: 250px;
     padding-top: 100px;
-    border: solid;
-    border-color: yellow;
-    height:1500px;
+    height:2005px;
     width:1600px;
+    overflow: hidden;
 }
 .aside1 {
     margin-top: 50px;
     max-width: 250px;
-    height: 300px;
+    height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border-style:ridge;
+    border-style:double;
+    border-width: 5px;
     border-color:grey;
     ul li {
         padding: 5px;
         color:darkgoldenrod;
+        margin:20px;
+        list-style: none;
     }
 }
 .aside2 {
@@ -114,7 +116,8 @@ ul li a {
     height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:solid;
+    border:double;
+    border-width: 5px;
     border-color:grey;
     ul li {
         padding: 15px;
@@ -122,6 +125,8 @@ ul li a {
         border-radius: 30px;
         padding-left: 5px;
         color:darkgoldenrod;
+        margin: 20px;
+        list-style: none;
     }
 }
 .aside1 img {
@@ -129,7 +134,8 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:solid;
+    border:double;
+    border-width: 5px;
     border-color:grey;
 }
 
@@ -138,7 +144,7 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:solid;
+    border:double;
     border-color:grey;
 }
 .middle{
@@ -146,8 +152,9 @@ ul li a {
     overflow-y: scroll;
     margin-top: 50px;
     width:875px;
-    height:500px;
-    border: solid;
+    height:450px;
+    border: double;
+    border-width: 5px;
     border-color:grey;
     background-color: black;
 
@@ -180,17 +187,18 @@ ul li a {
     max-width: 250px;
     max-height: 400px;
     overflow-y: scroll;
-    border:solid;
-   border-color:grey;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
 }
 .traveler {
     width:875px;
     height: 700px;
     overflow-x: hidden;
     overflow-y: scroll;
-    border:solid;
-    border-style: ridge;
+    border-style: double;
     border-color:grey;
+    border-width: 5px;
 }
 
 .traveler img {
@@ -203,27 +211,17 @@ ul li a {
   position: sticky;
   top: 0;
   background-color:black;
-  border: solid;
+  border: double;
   border-color:grey;
+  border-width: 5px;
 }
 
-
-.friendbox {
-    width:250px;
-    max-height: 400px;
-    overflow-y: scroll;
-    border:ridge;
-   border-color:grey;
-
-    li a {
-        color: red;
-    }
-}
 .travelerimg {
   border:solid;
   border-color:grey;
+  border-width: 5px;
   width:875px;
-  height:190px;
+  height:205px;
   padding-left:150px;
   position: sticky;
   top: 0;
@@ -232,4 +230,185 @@ ul li a {
 #sf {
     width: 200px;
     padding-bottom: 50px;
+}
+.ethos {
+    background-color:black;
+    width:875px;
+    border: solid;
+    border-color:grey;
+    border-width: 5px;
+
+    p {
+        margin:40px;
+        color: darkgoldenrod;
+    }
+
+    h4 {
+        margin: 25px;
+        color: red;
+    }
+    
+}
+.ethos img {
+  padding-left:250px;
+}
+
+.current1 {
+    margin-top: 50px;
+    max-width: 250px;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-style:double;
+    border-width: 5px;
+    border-color:grey;
+    ul li {
+        padding: 5px;
+        color:darkgoldenrod;
+        margin:20px;
+        list-style: none;
+    }
+}
+
+.current1 img {
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+}
+
+.current2 {
+    max-width: 250px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+    ul li {
+        padding: 5px;
+        color:darkgoldenrod;
+        margin:20px;
+        list-style: none;
+    }
+}
+
+.current2 img {
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+}
+.music {
+ max-width: 250px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+
+    h4{
+        color: darkgoldenrod;
+    }
+
+    h1 {
+        color: darkgoldenrod;
+    }
+}
+
+.music img {
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+}
+
+.friendbox {
+    max-width: 250px;
+    height: 215px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+
+        ul li {
+        padding: 5px;
+        margin: 20px;
+        list-style: none;
+    }
+
+    li a {
+         color: red;
+    }
+}
+
+.friendbox img {
+    width: 240px;
+    height: 100px;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+    padding-left: 5px;
+}
+
+.contact {
+    max-width: 250px;
+    height: 215px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+
+      h4{
+        color: darkgoldenrod;
+    }
+}
+
+.contact img {
+    width: 240px;
+    height: 100px;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+    padding-left: 5px;
+}
+
+.guestbook {
+ max-width: 250px;
+    height: 340px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
+
+    h4{
+        color: darkgoldenrod;
+    }
+
+    h1 {
+        color: darkgoldenrod;
+    }
+}
+
+.guestbook img {
+    position: sticky;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    border:double;
+    border-width: 5px;
+    border-color:grey;
 }
