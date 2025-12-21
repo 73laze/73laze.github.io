@@ -45,13 +45,12 @@ ul li a {
 
 .navbar-wrapper{
     margin: 0 auto;
-    border: solid;
-    border-color: yellow;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1404px;
+    width:100%;
     
     
     li a { 
@@ -96,8 +95,7 @@ ul li a {
     flex-grow:1;
     max-height:1920px;
     max-width:1404px;
-    border: solid;
-    border-color: yellow;
+    
 }
 .aside1 {
     max-width: 250px;
