@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: SourceCodePro-VariableFont_wght; 
     src: url('SourceCodePro-VariableFont_wght') format("TrueType");
@@ -86,6 +90,7 @@ ul li a {
 }
 
 .wrapper {
+    box-sizing: border-box;
     flex-direction: column;
     align-content:start;
     margin: 0 auto; 
@@ -95,7 +100,7 @@ ul li a {
     flex-grow:1;
     max-height:1920px;
     max-width:1404px;
-    
+
 }
 .aside1 {
     max-width: 250px;
@@ -425,3 +430,9 @@ ul li a {
     border-color:grey;
 }
 
+footer {
+    max-width: 1404px;
+    width:100%;
+    margin: 0 auto;
+    display:flex;
+}
