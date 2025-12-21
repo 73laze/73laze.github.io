@@ -44,11 +44,14 @@ ul li a {
 }
 
 .navbar-wrapper{
+    margin: 0 auto;
+    border: solid;
+    border-color: yellow;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1850px;
+    max-width: 1404px;
     
     
     li a { 
@@ -62,7 +65,7 @@ ul li a {
     }
 
     ul li a {
-    text-align: center;
+    text-align: right;
     padding: 50px 20px;
     text-decoration: none;
     }
@@ -86,18 +89,17 @@ ul li a {
 .wrapper {
     flex-direction: column;
     align-content:start;
+    margin: 0 auto; 
     display:flex;
     flex-wrap: wrap;
     flex-shrink: 1;
-    flex-grow: 1;
-    padding-left: 250px;
-    padding-top: 100px;
-    height:2005px;
-    width:1500px;
-    overflow: hidden;
+    flex-grow:1;
+    max-height:1920px;
+    max-width:1404px;
+    border: solid;
+    border-color: yellow;
 }
 .aside1 {
-    margin-top: 50px;
     max-width: 250px;
     height: 400px;
     overflow-y: scroll;
@@ -153,13 +155,13 @@ ul li a {
 .middle{
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-top: 50px;
-    width:875px;
-    height:450px;
+    max-width:875px;
+    max-height:450px;
     border: double;
     border-width: 5px;
     border-color:grey;
     background-color: black;
+
 
     ul li {
         margin-top: 20px;
@@ -260,7 +262,7 @@ ul li a {
 }
 
 .current1 {
-    margin-top: 50px;
+
     max-width: 250px;
     height: 400px;
     overflow-y: scroll;
@@ -424,3 +426,4 @@ ul li a {
     border-width: 5px;
     border-color:grey;
 }
+
