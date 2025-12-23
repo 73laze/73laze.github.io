@@ -1,36 +1,135 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title> 73laze </title>
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
-    </head>
-    <header><br></header>
-    <body>
-        <div class="home">
-            <a href="/index.html"><img src="/images/73laze.gif"></a>
-            <h4> game log </h4>
-
-            <hr /> 
-
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 73laze.online </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+</head>
+<header>
+    <div class="navbar-wrapper">
+        <div class="navbar-logo-wrapper">
+            <img src="/images/bascii.png">
+        </div>
+        <div class="navbar-links">
             <ul> 
-                <li><a href=""> currently playing - majoras mask 3DS </a></li>
-                <li><a href=""> currently playing - metroid prime 3 corruption (primehack - wii trilogy) </a>
-                <li><a href="games/mp2echoes.html"> metroid prime 2 echoes </a></li>
-                <li><a href="games/platform8.html"> platform 8 </a></li>
-                <li><a href="games/exit8.html"> exit 8 </a></li>
-                <li><a href="games/haloreach.html"> halo reach </a></li>
-                <li><a href="games/liesofp.html"> lies of p </a></li>
-                <li><a href="games/hollowknight.html"> hollow knight </a></li>
-                <li><a href="games/deathstranding.html"> death stranding: directors cut</a></li>
-                <li><a href="games/skate2025.html"> skate (2025) </a></li>
-                <li><a href="games/hyperlightdrifter.html"> hyper light drifter: definitive edition </a></li>
-                <li><a href="games/shovelknight.html"> shovel knight: treasure trove</a></li>
-                <li><a href="games/gatoroboto.html"> gato roboto </a></li>
-                <li><a href="games/nightreign.html"> elden rign: nightreign</a></li>
-                <li><a href="games/sekiro.html"> sekiro: shadows die twice </a></li>
+            <li><a href="/shelf.html"><i>shelf of consumption</i></a></li>
+            <li><a href="/zen.html"><i>zen</i></a></li>
+            <li><a href="/posts.html"><i>posts</i></a></li> 
+            <li><a href="/index.html"><i>home</i></a></li>
+        </ul>
+        </div>
+           <style>
+
+/* customizable snowflake styling - NOT my (73laze) code - found here :] https://pajasevi.github.io/CSSnowflakes/*/
+
+.snowflake {
+
+  color: #fff;
+
+  font-size: 1em;
+
+  font-family: Arial, sans-serif;
+
+  text-shadow: 0 0 5px #000;
+
+}
+
+ 
+
+.snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;user-select:none;cursor:default;pointer-events:none;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
+
+</style>
+
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+  <div class="snowflake">
+    <div class="inner">❅</div>
+  </div>
+</div>
+    </div>
+</header>
+<body>
+    <div class="wrapper-shelf">
+        <div class="current1">
+            <img src="/images/currentlyplaying.png">
+            <ul>
+                <li> metroid prime 3: corruption on primehack </li>
+                <li> legend of zelda: skyward sword on nintendo switch </li>
             </ul>
         </div>
-    </body>
+        <div class="current2">
+            <img src="/images/currentlyreading.png">
+            <ul>
+                <li> masters of doom by david kushner </li>
+                <li> IT by stephen king </li>
+            </ul>
+        </div>
+        <div class="break2"></div>
+        <div class="middle-shelf">
+            <div class="status">
+            <img src="/images/status.png">
+            </div>
+            <p> 2025 </p>
+                <ul> 
+                    <li><a href="games/mp2echoes.html"> metroid prime 2 echoes </a></li>
+                    <li><a href="games/platform8.html"> platform 8 </a></li>
+                    <li><a href="games/exit8.html"> exit 8 </a></li>
+                    <li><a href="games/haloreach.html"> halo reach </a></li>
+                    <li><a href="games/liesofp.html"> lies of p </a></li>
+                    <li><a href="games/hollowknight.html"> hollow knight </a></li>
+                    <li><a href="games/deathstranding.html"> death stranding: directors cut</a></li>
+                    <li><a href="games/skate2025.html"> skate (2025) </a></li>
+                    <li><a href="games/hyperlightdrifter.html"> hyper light drifter: definitive edition </a></li>
+                    <li><a href="games/shovelknight.html"> shovel knight: treasure trove</a></li>
+                    <li><a href="games/gatoroboto.html"> gato roboto </a></li>
+                    <li><a href="games/nightreign.html"> elden rign: nightreign</a></li>
+                    <li><a href="games/sekiro.html"> sekiro: shadows die twice </a></li>
+                </ul>
+            </div> 
+        <div class="music">
+            <img src="/images/music.png">
+            <h4> music coming soon! </h4>
+            <h1> :^] </h1>
+        </div>  
+    </div>
+</body>
+<footer>
+</footer>
 </html>
