@@ -384,6 +384,7 @@ ul li a {
     border-width: 5px;
     border-color:grey;
     background-color: #09090B;
+    text-align: center;
 
         ul li {
         padding: 5px;
@@ -414,9 +415,15 @@ ul li a {
     border-width: 5px;
     border-color:grey;
     background-color: #09090B;
+    text-align: center;
 
       h4{
         color: darkgoldenrod;
+    }
+
+    a {
+        color: darkgoldenrod;
+        
     }
 }
 
