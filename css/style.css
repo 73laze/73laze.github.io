@@ -54,7 +54,7 @@ ul li a {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1404px;
-    width:100%;
+    transform: scale(0.80);
     
     
     li a { 
@@ -85,6 +85,7 @@ ul li a {
 
 .navbar-links {
     margin:auto;
+    float:right;
 }
 .navbar-links li {
     float:right;
@@ -98,6 +99,8 @@ ul li a {
     flex-wrap: wrap;
     max-height:1920px;
     max-width:1404px;
+    transform: scale(0.80);
+    transform-origin: top;
 }
 .wrapper-shelf {
     flex-direction: column;
@@ -107,6 +110,8 @@ ul li a {
     flex-wrap: wrap;
     max-height:1920px;
     max-width:1404px;
+    transform: scale(0.80);
+    transform-origin: top;
 }
 .aside1 {
     max-width: 250px;
