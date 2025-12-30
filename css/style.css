@@ -55,7 +55,7 @@ ul li a {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1404px;
-    transform: scale(0.80);
+    transform: scale(0.74);
     
     
     li a { 
@@ -100,7 +100,7 @@ ul li a {
     flex-wrap: wrap;
     max-height:1920px;
     max-width:1404px;
-    transform: scale(0.80);
+    transform: scale(0.74);
     transform-origin: top;
 }
 .wrapper-shelf {
@@ -111,7 +111,7 @@ ul li a {
     flex-wrap: wrap;
     max-height:1920px;
     max-width:1404px;
-    transform: scale(0.80);
+    transform: scale(0.74);
     transform-origin: top;
 }
 .aside1 {
