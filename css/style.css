@@ -259,8 +259,8 @@ ul li a {
 }
 .status {
   width:875px;
-  height:190px;
-  padding-left:195px;
+  height:100px;
+  padding-left:250px;
   position: sticky;
   top: 0;
   background-color:black;
@@ -285,7 +285,7 @@ ul li a {
   border-color:grey;
   border-width: 5px;
   width:875px;
-  height:205px;
+  height:100px;
   padding-left:230px;
   position: sticky;
   top: 0;
