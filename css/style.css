@@ -3,15 +3,15 @@ html {
 }
 
 @font-face {
-    font-family:Retro Gaming; 
-    src: url('Retro Gaming.ttf') format("TrueType");
+    font-family: Retro Gaming;
+    src: url("Retro Gaming.ttf") format("TrueType");
     font-style: normal;
 }
 body {
     font-family: Retro Gaming;
-    src: url('Retro Gaming.ttf') format("TrueType");
+    src: url("Retro Gaming.ttf") format("TrueType");
     font-style: normal;
-    background-color:black;
+    background-color: black;
     background-image: url("/images/num.gif");
     background-repeat: repeat;
 }
@@ -25,14 +25,14 @@ h1 {
 }
 
 h2 {
-    color:grey;
+    color: grey;
     text-align: center;
 }
 h4 {
-    color:rgb(233, 199, 112);
+    color: rgb(233, 199, 112);
     text-align: center;
 }
-p { 
+p {
     text-align: left;
     color: rgb(233, 199, 112);
 }
@@ -43,74 +43,72 @@ ul {
     color: rgb(233, 199, 112);
 }
 ul li a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.navbar-wrapper{
+.navbar-wrapper {
     margin: 0 auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1404px;
     transform: scale(0.74);
-    
-    
-    li a { 
-     color:darkgoldenrod;
+
+    li a {
+        color: darkgoldenrod;
     }
     ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
     }
 
     ul li a {
-    text-align: right;
-    padding: 50px 20px;
-    text-decoration: none;
+        text-align: right;
+        padding: 50px 20px;
+        text-decoration: none;
     }
 }
-
 
 .navbar-logo-wrapper {
     flex: 1;
 }
 .navbar-logo-wrapper img {
     align-items: left;
-    height: auto; 
+    height: auto;
 }
 
 .navbar-links {
-    margin:auto;
-    float:right;
+    margin: auto;
+    float: right;
 }
 .navbar-links li {
-    float:right;
+    float: right;
 }
 
 .wrapper {
     flex-direction: column;
-    align-content:start;
-    margin: 0 auto; 
-    display:flex;
+    align-content: start;
+    margin: 0 auto;
+    display: flex;
     flex-wrap: wrap;
-    max-height:1920px;
-    max-width:1404px;
+    max-height: 1920px;
+    max-width: 1404px;
     transform: scale(0.74);
     transform-origin: top;
 }
 .wrapper-shelf {
     flex-direction: column;
-    align-content:start;
-    margin: 0 auto; 
-    display:flex;
+    margin: 0 auto;
+    align-content: start;
+    display: flex;
     flex-wrap: wrap;
-    max-height:1920px;
-    max-width:1404px;
+    max-height: 1920px;
+    max-width: 1404px;
     transform: scale(0.74);
     transform-origin: top;
 }
@@ -119,14 +117,14 @@ ul li a {
     height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
     ul li {
         padding: 5px;
-        color:darkgoldenrod;
-        margin:20px;
+        color: darkgoldenrod;
+        margin: 20px;
         list-style: none;
     }
 }
@@ -135,17 +133,17 @@ ul li a {
     height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
     font-size: 14px;
     ul li {
         padding: 15px;
         border: solid;
         border-radius: 30px;
         padding-left: 5px;
-        color:darkgoldenrod;
+        color: darkgoldenrod;
         margin: 20px;
         list-style: none;
     }
@@ -155,9 +153,9 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
 }
 
 .aside2 img {
@@ -165,25 +163,24 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:double;
-    border-color:grey;
+    border: double;
+    border-color: grey;
 }
-.middle{
+.middle {
     overflow-x: hidden;
     overflow-y: scroll;
-    max-width:875px;
-    max-height:450px;
+    max-width: 875px;
+    max-height: 450px;
     border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
     background-color: black;
-
 
     ul li {
         margin-top: 20px;
         list-style-type: none;
         padding: 15px;
-        color:darkgoldenrod;
+        color: darkgoldenrod;
     }
 }
 
@@ -191,11 +188,11 @@ ul li a {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: scroll;
-    max-width:875px;
-    height:1000px;
+    width: 1404px;
+    height: 1000px;
     border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
     background-color: black;
 
     p {
@@ -205,7 +202,7 @@ ul li a {
     ul li {
         list-style-type: none;
         padding: 10px;
-        color:darkgoldenrod;
+        color: darkgoldenrod;
     }
 
     li a {
@@ -213,18 +210,17 @@ ul li a {
     }
 
     h1 {
-    text-align: left;
-    color: darkgoldenrod;
-    
+        text-align: left;
+        color: darkgoldenrod;
     }
-    h2 { 
-    text-align: left;
+    h2 {
+        text-align: left;
     }
 }
 
 .break1 {
     flex-basis: 100%;
-    height:0;
+    height: 0;
 }
 .break2 {
     width: 100px;
@@ -232,80 +228,89 @@ ul li a {
 }
 .break2-shelf {
     width: 100px;
-    height:700px;
+    height: 700px;
 }
-.aside3{
+.aside3 {
     max-width: 250px;
     max-height: 400px;
     overflow-y: scroll;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
 }
 .traveler {
-    width:875px;
+    width: 875px;
     height: 700px;
     overflow-x: hidden;
     overflow-y: scroll;
     border-style: double;
-    border-color:grey;
+    border-color: grey;
     border-width: 5px;
-    background-color: #09090B;
+    background-color: #09090b;
 }
 
 .traveler img {
     max-width: 100%;
 }
 .status {
-  width:875px;
-  height:100px;
-  padding-left:250px;
-  position: sticky;
-  top: 0;
-  background-color:black;
-  border: double;
-  border-color:grey;
-  border-width: 5px;
+    width: 875px;
+    height: 100px;
+    padding-left: 250px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border: double;
+    border-color: grey;
+    border-width: 5px;
 }
 .status-shelf {
-  width:875px;
-  height:250px;
-  position: sticky;
-  padding-left: 75px;
-  top: 0;
-  background-color:black;
-  border: double;
-  border-color:grey;
-  border-width: 5px;
+    width: 1404px;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border: double;
+    border-color: grey;
+    border-width: 5px;
+}
+#shelf {
+    padding-top: 20px;
+    padding-left: 75px;
+}
+#blog {
+    padding-top: 20px;
+}
+#zen {
+    padding-top: 20px;
 }
 .travelerimg {
-  z-index: 1;
-  border:solid;
-  border-color:grey;
-  border-width: 5px;
-  width:875px;
-  height:100px;
-  padding-left:230px;
-  position: sticky;
-  top: 0;
-  background-color: black;
+    z-index: 1;
+    border: solid;
+    border-color: grey;
+    border-width: 5px;
+    width: 875px;
+    height: 100px;
+    padding-left: 230px;
+    position: sticky;
+    top: 0;
+    background-color: black;
 }
 #sf {
     width: 200px;
     padding-bottom: 50px;
 }
 .ethos {
-    background-color:black;
-    width:875px;
+    background-color: black;
+    width: 875px;
     border: solid;
-    border-color:grey;
+    border-color: grey;
     border-width: 5px;
-    background-color: #09090B;
+    background-color: #09090b;
     font-size: 14px;
 
     p {
-        margin:40px;
+        margin: 40px;
         color: darkgoldenrod;
     }
 
@@ -313,26 +318,24 @@ ul li a {
         margin: 25px;
         color: darkred;
     }
-    
 }
 .ethos img {
-  padding-left:250px;
+    padding-left: 250px;
 }
 
 .current1 {
-
     max-width: 250px;
     height: 400px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
     ul li {
         padding: 5px;
-        color:darkgoldenrod;
-        margin:20px;
+        color: darkgoldenrod;
+        margin: 20px;
         list-style: none;
     }
 }
@@ -342,9 +345,9 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
 }
 
 .current2 {
@@ -352,14 +355,14 @@ ul li a {
     height: 300px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
     ul li {
         padding: 5px;
-        color:darkgoldenrod;
-        margin:20px;
+        color: darkgoldenrod;
+        margin: 20px;
         list-style: none;
     }
 }
@@ -369,21 +372,21 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
 }
 .music {
     max-width: 250px;
     height: 300px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
 
-    h4{
+    h4 {
         color: darkgoldenrod;
     }
 
@@ -397,9 +400,9 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
 }
 
 .friendbox {
@@ -407,30 +410,30 @@ ul li a {
     height: 215px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
     text-align: center;
     font-size: 15px;
 
-        ul li {
+    ul li {
         padding: 5px;
         margin: 20px;
         list-style: none;
     }
 
     li a {
-         color:green;
+        color: green;
     }
 }
 
 .friendbox img {
     width: 240px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
     padding-left: 5px;
 }
 
@@ -439,42 +442,41 @@ ul li a {
     height: 275px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
     text-align: center;
 
-      h4{
+    h4 {
         color: darkgoldenrod;
     }
 
     a {
         color: green;
-        
     }
 }
 
 .contact img {
     width: 240px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
     padding-left: 5px;
 }
 
 .guestbook {
- max-width: 250px;
+    max-width: 250px;
     height: 340px;
     overflow-y: scroll;
     overflow-x: hidden;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
-    background-color: #09090B;
+    border-color: grey;
+    background-color: #09090b;
 
-    h4{
+    h4 {
         color: darkgoldenrod;
     }
 
@@ -488,30 +490,30 @@ ul li a {
     top: 0;
     width: 250px;
     height: 100px;
-    border:double;
+    border: double;
     border-width: 5px;
-    border-color:grey;
+    border-color: grey;
 }
 
 footer {
     max-width: 1404px;
-    width:100%;
+    width: 100%;
     margin: 0 auto;
-    display:flex;
+    display: flex;
 }
 figure {
-  position: relative;
-  float: left;
-  margin:0;
+    position: relative;
+    float: left;
+    margin: 0;
 }
 
 figcaption {
-  background-color: black;
-  color: darkgoldenrod;
-  max-width: 400px;
-  font-size: 14px;
-  display: block;
-  float: left;
-  position: absolute;
-  top: 0;
+    background-color: black;
+    color: darkgoldenrod;
+    max-width: 400px;
+    font-size: 14px;
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0;
 }

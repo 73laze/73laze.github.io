@@ -8,82 +8,21 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <header>
-   <style>
-
-/* customizable snowflake styling - NOT my (73laze) code - found here :] https://pajasevi.github.io/CSSnowflakes/*/
-
-.snowflake {
-
-  color: #fff;
-
-  font-size: 1em;
-
-  font-family: Arial, sans-serif;
-
-  text-shadow: 0 0 5px #000;
-
-}
-
- 
-
-.snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;user-select:none;cursor:default;pointer-events:none;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
-
-</style>
-
-<div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-  <div class="snowflake">
-    <div class="inner">❅</div>
-  </div>
-</div>
+<div class="navbar-wrapper">
+    <div class="navbar-logo-wrapper">
+        <img src="images/bascii.png">
     </div>
-    <div class="navbar-wrapper">
-        <div class="navbar-logo-wrapper">
-            <img src="images/bascii.png">
-        </div>
-        <div class="navbar-links">
-            <ul> 
+    <div class="navbar-links">
+        <ul>
             <li><a href="shelf.html"><i>shelf of consumption</i></a></li>
             <li><a href="zen.html"><i>zen</i></a></li>
-            <li><a href="posts.html"><i>blog</i></a></li> 
+            <li><a href="blog.html"><i>blog</i></a></li>
             <li><a href="index.html"><i>home</i></a></li>
         </ul>
-        </div>
+    </div>
 </header>
 <body>
     <div class="wrapper">
@@ -112,7 +51,7 @@
                 <li> [12.18.25] been working each day since the last update. disregarded floats, picked up the basics of flexbox to get a more responsive layout. the code is...a fucking mess. taking a break lol brb </li>
                 <li> [12.12.25] over 1ish hours today on figuring out what worked best for a status box with a pfp. playing around, and a quick internet search led me to using a display:flex instead of block. pleased with how that turned out. </li>
                 <li> [12.11.25] 4 hours of basic html course work today over on freecodecamp.org and immediately put it to use. 2 biggest things i learned was the existence of section elements and id attributes. a bit confusing when you toss in div elements in there too. target box and devlog are the results of todays learnings. logging off, status box will be back up tomorrow. </li>
-                <li> [12.10.25] the website is like mostly broken. its 2am. i need to go to bed. </li> 
+                <li> [12.10.25] the website is like mostly broken. its 2am. i need to go to bed. </li>
                 <li> [12.06.25] finally using some div tags : > ] learning their use came organically. i wanted to edit the li elements below the nav bar but not above, so i needed to find a way to separate elements into their own containers. avoila - za div tag. </li>
                 <li> [11.30.25] domain is live : - D </li>
                 <li> [11.21.25] domain change imminent! 73laze.online will be the new domain soon (hopefully) </li>
@@ -128,7 +67,7 @@
         <div class="friendbox">
             <img src="images/friends.png">
             <ul>
-                <li><a href="https://chrysopoeia.xyz/"> >> chrysopoeia << </a></li> 
+                <li><a href="https://chrysopoeia.xyz/"> >> chrysopoeia << </a></li>
             </ul>
         </div>
         <div class="contact">
@@ -145,7 +84,7 @@
             <ul>
                 <li>  [01.02.26] happy new year. my partner surprised me with flaming hot cheetos today. its been like 3 months since ive had some and byyyy gollllly they were immaculate.</li>
                 <li>  [12.31.25] i permanently live in job application hell. ie, workday. holy fawk. can we please go back to the days of just accepting resumes and not mining data!!! </li>
-		            <li>  [12.23.25] new status update brought to you by termux :^) cloned my repo on a terminal emulator ON my android phone so i can do status updates or work on some code on the fly! kinda neat. </li>
+		        <li>  [12.23.25] new status update brought to you by termux :^) cloned my repo on a terminal emulator ON my android phone so i can do status updates or work on some code on the fly! kinda neat. </li>
                 <li>  [12.21.25] rei harakami - bioscope </li>
                 <li>  [12.18.25] of all things, welcome to derry is the show that gets me to pick up IT lol. (ive seen all the movies...not a fan of the tim curry series lol) </li>
                 <li>  [12.07.25] nintendo deciding to paywall music in the hub world, where you will be spending a significant amount of time traversing, behind a $30 dollar amiibo is...a stupid but unsuprising decision. they just cant help themselves huh? its disappointing to see this shit happen to the prime series man. such a stupid, needless, greedy way to justify continuing to produce these figures. let the record show i will obviously not be buying one lmfao. </li>
@@ -176,11 +115,11 @@
             <img src="images/wanderer.png">
             </div>
               <figure>
-              <img src="/images/traveler/primeseries1.jpg">
+              <img src="images/traveler/primeseries1.jpg">
               <figcaption> [12.25.25] Metroid Prime 4 - "prime series 1" - journeys first steps. my big brother gifted it to me for xmas. bout brought me to tears. </figcaption>
               </figure>
               <figure>
-              <img src="/images/traveler/halflife2.jpg">
+              <img src="images/traveler/halflife2.jpg">
               <figcaption> [12.20.25] Half Life - "death series #2" - fell into a radioactive pit. the resulting view was pretty liminal. </figcaption>
               </figure>
               <figure>
@@ -188,7 +127,7 @@
               <figcaption> [12.20.25] Half Life - "death series #1" - whomever is responsible at Valve 1998 for ensuring you could still look around after your death has my thanks. its such a weirdly cool feature. so anyways, i met my doom smacking my crowbar at a box of explosives. heres my skull. </figcation>
               </figure>
               <figure>
-              <img src="/images/traveler/l4d2.jpg">
+              <img src="images/traveler/l4d2.jpg">
               <figcaption> [12.12.25] L4D2 - "toilet poetry reading" - the chaos of this game disagrees with you stopping to read, thus Cat was mauled by a hunter to death as Jasodo and I were mesmerized by the toilet poets holy words. </figcaption>
               </figure>
         </div>
@@ -198,13 +137,14 @@
 
             <h4> enshittification - "the process by which online platforms degrade over time to become worse for users as the corporations that run them prioritize profit" </h4>
             <hr />
-                
-            <p> Howdy, I go by 73laze. This is my personal website I started working on to develop my skills in web development. I also started this because of my exhaustion with social media platforms as a whole. Social media as we knew it before is completely different now. You see more ads, news, bite sized videos designed to keep you scrolling, endlessly. Hardly anyone actually posts a random thought, or feeling. If they do, its buried underneath a feed of shit. 
-            <p> Platforms like facebook, twitter, instagram, and youtube have lost all sincerity. This is an adoption of the philosophy that owning your power as a user on the internet is more important now, more than ever. Just by learning some simple HTML and CSS, I now have a website that will be home to anything I want to share to the internet, and I am in complete control over it. It may not be as flashy or feature rich, but its exactly what I want. I mean, it is hosted on github pages for now - but I own the code. I can take it anywhere else I want! </p> 
+
+            <p> Howdy, I go by 73laze. This is my personal website I started working on to develop my skills in web development. I also started this because of my exhaustion with social media platforms as a whole. Social media as we knew it before is completely different now. You see more ads, news, bite sized videos designed to keep you scrolling, endlessly. Hardly anyone actually posts a random thought, or feeling. If they do, its buried underneath a feed of shit.
+            <p> Platforms like facebook, twitter, instagram, and youtube have lost all sincerity. This is an adoption of the philosophy that owning your power as a user on the internet is more important now, more than ever. Just by learning some simple HTML and CSS, I now have a website that will be home to anything I want to share to the internet, and I am in complete control over it. It may not be as flashy or feature rich, but its exactly what I want. I mean, it is hosted on github pages for now - but I own the code. I can take it anywhere else I want! </p>
         </div>
         <div class="current1">
             <img src="images/currentlyplaying.png">
             <ul>
+                <li> metroid prime 4: beyond on nintendo switch </li>
                 <li> metroid prime 3: corruption on primehack </li>
                 <li> legend of zelda: skyward sword on nintendo switch </li>
             </ul>
@@ -212,15 +152,15 @@
         <div class="current2">
             <img src="images/currentlyreading.png">
             <ul>
-                <li> masters of doom by david kushner </li>
                 <li> IT by stephen king </li>
+                <li> DOOM GUY: life in first person by john romero </li>
             </ul>
         </div>
         <div class="music">
             <img src="images/music.png">
             <h4> music coming soon! </h4>
             <h1> :^] </h1>
-        </div>  
+        </div>
         <div class="guestbook">
             <img src="images/guestbook.png">
              <h4> cawm soon </h4>
