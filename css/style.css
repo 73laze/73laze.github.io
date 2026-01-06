@@ -1,5 +1,7 @@
 html {
-    box-sizing: border-box;
+    font-family: Retro Gaming;
+    src: url("Retro Gaming.ttf") format("TrueType");
+    font-style: normal;
 }
 
 @font-face {
@@ -8,9 +10,6 @@ html {
     font-style: normal;
 }
 body {
-    font-family: Retro Gaming;
-    src: url("Retro Gaming.ttf") format("TrueType");
-    font-style: normal;
     background-color: black;
     background-image: url("/images/num.gif");
     background-repeat: repeat;
@@ -80,6 +79,7 @@ ul li a {
 .navbar-logo-wrapper img {
     align-items: left;
     height: auto;
+    max-width: 100%;
 }
 
 .navbar-links {
@@ -92,7 +92,6 @@ ul li a {
 
 .wrapper {
     flex-direction: column;
-    align-content: start;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -320,7 +319,7 @@ ul li a {
     }
 }
 .ethos img {
-    padding-left: 250px;
+    padding-left: 50px;
 }
 
 .current1 {
