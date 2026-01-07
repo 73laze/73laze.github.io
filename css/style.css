@@ -111,7 +111,13 @@ header {
     transform: scale(0.74);
     transform-origin: top;
 }
-.aside1 {
+.left-column {
+    max-width: 250px;
+    height: 1620px;
+    border: solid yellow;
+}
+
+.targets {
     max-width: 250px;
     height: 400px;
     overflow-y: scroll;
@@ -127,7 +133,7 @@ header {
         list-style: none;
     }
 }
-.aside2 {
+.devlog {
     max-width: 250px;
     height: 500px;
     overflow-y: scroll;
@@ -147,7 +153,7 @@ header {
         list-style: none;
     }
 }
-.aside1 img {
+.targets img {
     position: sticky;
     top: 0;
     width: 250px;
@@ -157,7 +163,7 @@ header {
     border-color: grey;
 }
 
-.aside2 img {
+.devlog img {
     position: sticky;
     top: 0;
     width: 250px;
