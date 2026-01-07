@@ -76,7 +76,7 @@ header {
 .navbar-logo-wrapper {
     flex: 1;
 }
-.navbar-logo-wrapper img {
+header img {
     align-items: left;
     height: auto;
     max-width: 100%;
