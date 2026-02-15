@@ -1,18 +1,16 @@
 html {
-    font-family: Retro Gaming;
-    src: url("Retro Gaming.ttf") format("TrueType");
+    font-family: ChareInk;
+    src: url("ChareInk-Regular.ttf") format("TrueType");
     font-style: normal;
 }
 
 @font-face {
-    font-family: Retro Gaming;
-    src: url("Retro Gaming.ttf") format("TrueType");
+    font-family: ChareInk;
+    src: url("ChareInk-Regular.ttf") format("TrueType");
     font-style: normal;
 }
 body {
     background-color: black;
-    background-image: url("/images/num.gif");
-    background-repeat: repeat;
 }
 h6 {
     text-align: center;
@@ -24,8 +22,9 @@ h1 {
 }
 
 h2 {
-    color: grey;
+    color: darkgoldenrod;
     text-align: center;
+    padding-left: 18px;
 }
 h4 {
     color: rgb(233, 199, 112);
@@ -170,33 +169,15 @@ ul li a {
     border: double;
     border-color: grey;
 }
-.middle {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    max-width: 875px;
-    max-height: 450px;
-    border: double;
-    border-width: 5px;
-    border-color: grey;
-    background-color: black;
-
-    ul li {
-        margin-top: 20px;
-        list-style-type: none;
-        padding: 15px;
-        color: darkgoldenrod;
-    }
-}
-
 .middle-shelf {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: scroll;
     width: 1404px;
     height: 1000px;
-    border: double;
+    border: ridge;
     border-width: 5px;
-    border-color: grey;
+    border-color: darkgoldenrod;
     background-color: black;
 
     p {
@@ -221,7 +202,89 @@ ul li a {
         text-align: left;
     }
 }
+.middle-main {
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 1404px;
+    height: 200px;
+    background-color: black;
 
+    p {
+        margin: 20px;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding-left: 40px;
+        margin: 12px;
+        color: darkgoldenrod;
+    }
+
+    li a {
+        color: green;
+    }
+
+    h1 {
+        text-align: left;
+        color: darkgoldenrod;
+    }
+    h2 {
+        text-align: left;
+    }
+}
+
+.intro {
+    h2 {
+        float: right;
+    }
+}
+.intro {
+    float: right;
+    width: 500px;
+    padding: 10px;
+    border-left: ridge;
+    border-bottom: ridge;
+    border-color: gray;
+
+    img {
+    float: right;
+    }
+    p {
+    float: right;
+    color:darkgoldenrod;
+    }
+}
+.top-main {
+    justify-content: center;
+    width: 1404px;
+    height: 250px;
+    background-color: black;
+
+
+    p {
+        margin: 20px;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding-left: 50px;
+        color: darkgoldenrod;
+    }
+
+    li a {
+        color: green;
+    }
+
+    h1 {
+        text-align: left;
+        color: darkgoldenrod;
+    }
+    h2 {
+        text-align: left;
+    }
+
+}
 .break1 {
     flex-basis: 100%;
     height: 0;
@@ -244,18 +307,24 @@ ul li a {
     background-color: #09090b;
 }
 .traveler {
-    width: 875px;
-    height: 700px;
+    margin-top: 50px
+    width: 1200px;
+    height: 820px;
     overflow-x: hidden;
     overflow-y: scroll;
-    border-style: double;
-    border-color: grey;
-    border-width: 5px;
-    background-color: #09090b;
+
+    figcaption {
+        padding-left: 50px;
+        font-size: 16px;
+    }
+    h2 {
+        text-align: left;
+    }
 }
 
 .traveler img {
-    max-width: 100%;
+    width: 1000px;
+    padding-left: 50px;
 }
 .status {
     width: 875px;
@@ -306,12 +375,8 @@ ul li a {
 }
 .ethos {
     background-color: black;
-    width: 875px;
-    border: solid;
-    border-color: grey;
-    border-width: 5px;
-    background-color: #09090b;
-    font-size: 14px;
+    width: 1404px;
+    height: 200px;
 
     p {
         margin: 40px;

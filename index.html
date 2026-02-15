@@ -25,181 +25,113 @@
     </div>
 </header>
 <body>
-    <div class="wrapper">
-        <div class="targets">
-            <img src="images/targets.png">
+    <div class="wrapper-shelf">
+        <div class="top-main">
+            <hr/>
+            <div class="intro">
+                <img src="images/image-120x120.png">
+                <p> welcome to my site, traveler. I am 73LAZE. <br> gamer, haiku poet, and student of mindfulness. </p>
+            </div>
+            <h2> [currently reading]:</h2>
             <ul>
-                <li> [] have a fully functional website (all pages work) </li>
-                <li> [x] add image captions for pic log </li>
-                <li> [] create guest book </li>
-                <li> [] archive all substack content (zen) and zine files </li>
-                <li> [x] archive book data into consumption page </li>
-                <li> [] actually write a post <em>god damn-nit</em></li>
-                <li> [x] add friends section </li>
-                <li> [] make website responsive </li>
-                <li> [] add music functionality </li>
-                <li> [] webrings? </li>
-                <li> [] add anti AI html file </li>
-                <li> [x] update ethos to go more in depth on what someone will find here on the website and what to expect. </li>
+                <li> // it - stephen king </li>
+                <li> // hardcore zen - brad warner </li>
+                <li> // the samurais garden - gail tsukiyama </li>
+                <li> // anger: wisdom for cooling the flames - thich nhat hanh </li>
+            </ul>
+            <h2> [currently playing]: </h2>
+            <ul>
+                <li> // dark souls remastered - switch </li>
+                <li> // castlevania: aria of sorrow </li>
             </ul>
         </div>
-        <div class="devlog">
-            <img src="images/devlog.png">
-            <ul>
-                <li> [01.26.25] books / movies / games are archived, though my thoughts are not and it may stay that way. we shall see. my zen poetry, writing, and photography are starting to be archived. very close to having this portion the site done! </li>
-                <li> [01.03.25] the structure for the subpages is set. each subpage, and their subpages will be one box. this just makes my job easier down the road so i dont have to update any side boxes outside of the index, and turns the layout into an easy template for new pages going forward. </li>
-                <li> [12.29.25] using transform:scale() was quick and dirty but honestly worked like a charm. it doesnt look like the text is pressing against my eyes anymore haha. stepping away from the website for a few days was useful, because I genuinely did not notice that during the previous coding grind. </li>
-                <li> [12.28.25] the website is a bit larger than i would personally like it, when on 100% default zoom. will be working on shrinking that lol. </li>
-                <li> [12.22.25] added captions to the pic log photos. </li>
-                <li> [12.18.25] been working each day since the last update. disregarded floats, picked up the basics of flexbox to get a more responsive layout. the code is...a fucking mess. taking a break lol brb </li>
-                <li> [12.12.25] over 1ish hours today on figuring out what worked best for a status box with a pfp. playing around, and a quick internet search led me to using a display:flex instead of block. pleased with how that turned out. </li>
-                <li> [12.11.25] 4 hours of basic html course work today over on freecodecamp.org and immediately put it to use. 2 biggest things i learned was the existence of section elements and id attributes. a bit confusing when you toss in div elements in there too. target box and devlog are the results of todays learnings. logging off, status box will be back up tomorrow. </li>
-                <li> [12.10.25] the website is like mostly broken. its 2am. i need to go to bed. </li>
-                <li> [12.06.25] finally using some div tags : > ] learning their use came organically. i wanted to edit the li elements below the nav bar but not above, so i needed to find a way to separate elements into their own containers. avoila - za div tag. </li>
-                <li> [11.30.25] domain is live : - D </li>
-                <li> [11.21.25] domain change imminent! 73laze.online will be the new domain soon (hopefully) </li>
-                <li> [11.18.25] game logs are up. links properly work. Ill be adding to the logs overtime if I think of something I maybe didnt mention. Metroid Prime 2 echoes log will be quite long so just bare with me as its not really complete yet. I have a lot to say about that game lol. </li>
-                <li> [11.16.25] website name change, this is normal a.d.d. behavior so dont get used to a name lol. </li>
-                <li> [11.07.25] finally fixed the text alignment of the p tags here on this page. when I was trying to fix it I thought I had to change the css in my .home container, but nah. was thinking too hard about it. simple fix. </li>
-                <li> [10.23.25] fixed all the broken links and srcs caused by the transition from publishing from /docs to /root. the repo looks saur gaurd now. </li>
-                <li> [10.23.25] finally cleaned up the directories for the website. I want to actually produce content on this site, but I also want to keep improving its functionality lol. Both are equally time consuming. </li>
-                <li> [10.13.25] have completely overhauled the websites homepage to go into a more minimal direction. quite pleased with out it came out. </li>
-                <li> [10.13.25] deciding to add a static status page to my websites landing page. wanted to use status cafe, but wanted to opt for something simpler.</li>
-            </ul>
-        </div>
-        <div class="friendbox">
-            <img src="images/friends.png">
-            <ul>
-                <li><a href="https://chrysopoeia.xyz/"> >> chrysopoeia << </a></li>
-            </ul>
-        </div>
-        <div class="contact">
-            <img src="images/contact.png">
-            <a href="https://github.com/73laze"> >> my github page << </a>
-            <h4> pm me anytime on discord! </h4>
-            <h4> username: 73laze </h4>
-        </div>
-        <div class="break2"></div>
-        <div class="ethos">
-               <img src="images/ethos.png">
-               <p> [WHOIAM]: Hello friend. I go by 73laze, and this is my own homegrown section of the internet, created AI free. It was made upon several iterations, with each one teaching me fundamental concepts of the HTML/CSS language. I knew pretty much no code before I made this, and often still feel like I dont, but what the fuck ever ya know. Hopefully, the iteration you happen to spring upon is the one that stays! lol.I am a smear of different things - life long gamer, book worm, linux user (arch btw), and occasionally a haiku poet, writer and photographer.
-               <p> [WHATTOEXPECT]: The main point of the website is to act as an alternative to me to house feelings, thoughts, (only the ones i am most comfortable with sharing, the rest are for my journals only!) pictures, and an archive / log on things Ive read, watched, or played. </p>
-               <p> [WHY]: Platforms like facebook, twitter, instagram, and youtube have lost all sincerity. This is an adoption of the philosophy that owning your power as a user on the internet is more important now, more than ever. Just by learning some simple HTML and CSS, I now have a website that will be home to anything I want to share to the internet, and I am in complete control over it. It may not be as flashy or feature rich, but its exactly what I want. </p>
-           </div>
         <main></main>
-        <div class="middle">
-            <div class="status">
-            <img src="images/status.png">
-        </div>
+        <div class="middle-main">
+            <h2> [status] </h2>
+            <div class="clt">
             <ul>
-		<li>  [02.07.26] "NEVER LOOK DOWN THE BARREL OF THE BLASTER." - nerf gun </li>
-                <li>  [01.26.26] "no moon - the snow leads the way" </li>
-                <li>  [01.13.26] happiness is a practice, one i happen to be out of. time to return, or everything else will swallow me im sure. </li>
-                <li>  [01.10.26] rest in peace, Renee Nicole Good. END FUCKING ICE FUCK MAN. </li>
-                <li>  [01.07.26] 3 quesoritos, and 1 baja blaster in one week if that tells you anything about my mental state </li>
-                <li>  [01.02.26] happy new year. my partner surprised me with flaming hot cheetos today. its been like 3 months since ive had some and byyyy gollllly they were immaculate.</li>
-                <li>  [12.31.25] i permanently live in job application hell. ie, workday. holy fawk. can we please go back to the days of just accepting resumes and not mining data!!! </li>
-	        <li>  [12.23.25] new status update brought to you by termux :^) cloned my repo on a terminal emulator ON my android phone so i can do status updates or work on some code on the fly! kinda neat. </li>
-                <li>  [12.21.25] rei harakami - bioscope </li>
-                <li>  [12.18.25] of all things, welcome to derry is the show that gets me to pick up IT lol. (ive seen all the movies...not a fan of the tim curry series lol) </li>
-                <li>  [12.07.25] nintendo deciding to paywall music in the hub world, where you will be spending a significant amount of time traversing, behind a $30 dollar amiibo is...a stupid but unsuprising decision. they just cant help themselves huh? its disappointing to see this shit happen to the prime series man. such a stupid, needless, greedy way to justify continuing to produce these figures. let the record show i will obviously not be buying one lmfao. </li>
-                <li>  [12.04.25] i finally jail broke my kindle. honestly just psyched i can look up words again now that i can keep it connected to wifi lol. kfetch is my favorite tool so far. god its gonna be so useful in a pinch if i dont have ez access to a computer. fuck you amazon, and fuck you jeff bezos. </li>
-                <li>  [12.04.25] happy metroid prime 4 day!!! totally not screamin and crying internally. I cant afford it. Im still going through prime 3 anyways lol. </li>
-                <li>  [12.03.25] added music to the site in the most basic way possible by using the audio controls HTML tag. inspired by visiting a website of a close friend of mine and realized how much it can really...add. brinstar red soil is the definite fuckin vibe. :] </li>
-                <li>  [11.30.25] happy fucksgivles! its been a week or so. My life has been incredibly hectic. I moved back to Georgia in maybe the most chaotic way possible but its done. Back to learning some webdev! </li>
-                <li>  [11.21.25] DINNER TIME - DINNER IN AMERICAAAAAAAAAA. </li>
-                <li>  [11.20.25] back on arch, btw. been back tbh just havent released an update about it. bit the bullet and learned how to navigate the config files (mostly). using someone elses minimial waybar setup. </li>
-                <li>  [11.18.25] game logs are up. links properly work. Ill be adding to the logs overtime if I think of something I maybe didnt mention. Metroid Prime 2 echoes log will be quite long so just bare with me as its not really complete yet. I have a lot to say about that game lol. </li>
-                <li>  [11.17.25] 73laze is just Blaze but with "leet" like language to shape the "B". Not sure why but through the years ive always found it aesthetically pleasing to find different ways to shape letters with numbers. Like "72" kind of looks like R. Or L7 looks like a brutalist D or something. I found it unlocks username capabilities with names that are usually taken. For instance, Blaze was the first ever tag I gave myself at the age of 6, playing Halo 1 on the xbox. Ive never been able to use that tag though, because its always taken. So it has some sentimental value to me. </li>
-                <li>  [11.14.25] I may be addicted to cleaning up my digital footprint lol </li>
-                <li>  [11.12.25] fuck the spider guardian in mp2. what the hell is this. </li>
-                <li>  [11.07.25] finally fixed the text alignment of the p tags here on this page. when I was trying to fix it I thought I had to change the css in my .home container, but nah. was thinking too hard about it. simple fix. </li>
-                <li>  [11.06.15] played metroid prime 2 echoes for 7 hours straight yesterday. holy shit. cant even remember the last time I did that. this game is so good. </li>
-                <li>  [11.05.25] long time no update. Mamdani won NY, lets fucking go. I put windows back on my Legion S7 15ach6. Its complete trash but I do love that games typically work out of the box without much tinkering - and thats all that thing will be doing. There wont be much data for microsoft to scrape. Im going to keep tinkering with it to see just how secure I can make it. I fucked up my cachyOS hyprland configs by installing some other dudes dotfiles. I wasnt skilled enough to go back to default, so upon doing a fresh cachyOS install I learned that they just deprecated their hyprland support. I am now rocking linux mint on my thinkpad and I gotta say - its fuckin smooth. apt is nowhere near as fast as pacman, and im gonna miss the AUR, but I do love having a stable distro that I know I wont have to spend hours configuring with. Ill be back on arch one day. I just dont have the time or the skill set to make tinkering a sustainable hobby right now - atleast on that level. </li>
-                <li>  [10.28.25] my thinkpad t14 gen 1 arrived today, and I gotta say - the keyboard is one of the best ive ever felt. immediately put cachyOS on it. this is so much better than carrying around my humongo gaming laptop. also better battery. </li>
-                <li>  [10.26.25] halo: campaign evolved stands to be a cheap reflection of todays fps genre and nothing more. how depressing. </li>
-                <li>  [10.22.25] started playing silent hill 2 remake last night since its free on ps plus extra. I dont normally pay that subscription but I wanna finish death stranding - which is also locked behind that sub lol. let the spooky game playing commence.</li>
-                <li>  [10.20.25] the neighbor above me may just be a giant heel. </li>
-                <li>  [10.17.15] first post is up on the posts page: "photos from a faraway world." Check it out :]</li>
-                <li>  [10.17.25] had a tooth filling fall out Wednesday afternoon. My mouth has to be worth 4k at this point with the amount of fillings in my mouth. Add another 1k on that for repair, another filling and a cleaning. Are we great again yet? </li>
-                <li>  [10.15.25] explored central park zoo yesterday, and then had some godly, immaculate ramen in midtown new york. snagged some great pictures that ill put up soon as a post. </li>
+                <li>  // [02.14.26] spent valentines day playing burnout revenge with my partner 4 lyfe <3 (shout out pcsx2 what a magnifecent piece of software) </li>
+                <li>  // [02.07.26] "NEVER LOOK DOWN THE BARREL OF THE BLASTER." - nerf gun </li>
+                <li>  // [01.26.26] "no moon - the snow leads the way" </li>
+                <li>  // [01.13.26] happiness is a practice, one i happen to be out of. time to return, or everything else will swallow me im sure. </li>
+                <li>  // [01.10.26] rest in peace, Renee Nicole Good. END FUCKING ICE FUCK MAN. </li>
+                <li>  // [01.07.26] 3 quesoritos, and 1 baja blaster in one week if that tells you anything about my mental state </li>
+                <li>  // [01.02.26] happy new year. my partner surprised me with flaming hot cheetos today. its been like 3 months since ive had some and byyyy gollllly they were immaculate.</li>
+                <li>  // [12.31.25] i permanently live in job application hell. ie, workday. holy fawk. can we please go back to the days of just accepting resumes and not mining data!!! </li>
+                <li>  // [12.23.25] new status update brought to you by termux :^) cloned my repo on a terminal emulator ON my android phone so i can do status updates or work on some code on the fly! kinda neat. </li>
+                <li>  // [12.21.25] rei harakami - bioscope </li>
+                <li>  // [12.18.25] of all things, welcome to derry is the show that gets me to pick up IT lol. (ive seen all the movies...not a fan of the tim curry series lol) </li>
+                <li>  // [12.07.25] nintendo deciding to paywall music in the hub world, where you will be spending a significant amount of time traversing, behind a $30 dollar amiibo is...a stupid but unsuprising decision. they just cant help themselves huh? its disappointing to see this shit happen to the prime series man. such a stupid, needless, greedy way to justify continuing to produce these figures. let the record show i will obviously not be buying one lmfao. </li>
+                <li>  // [12.04.25] i finally jail broke my kindle. honestly just psyched i can look up words again now that i can keep it connected to wifi lol. kfetch is my favorite tool so far. god its gonna be so useful in a pinch if i dont have ez access to a computer. fuck you amazon, and fuck you jeff bezos. </li>
+                <li>  // [12.04.25] happy metroid prime 4 day!!! totally not screamin and crying internally. I cant afford it. Im still going through prime 3 anyways lol. </li>
+                <li>  // [12.03.25] added music to the site in the most basic way possible by using the audio controls HTML tag. inspired by visiting a website of a close friend of mine and realized how much it can really...add. brinstar red soil is the definite fuckin vibe. :] </li>
+                <li>  // [11.30.25] happy fucksgivles! its been a week or so. My life has been incredibly hectic. I moved back to Georgia in maybe the most chaotic way possible but its done. Back to learning some webdev! </li>
+                <li>  // [11.21.25] DINNER TIME - DINNER IN AMERICAAAAAAAAAA. </li>
+                <li>  // [11.20.25] back on arch, btw. been back tbh just havent released an update about it. bit the bullet and learned how to navigate the config files (mostly). using someone elses minimial waybar setup. </li>
+                <li>  // [11.18.25] game logs are up. links properly work. Ill be adding to the logs overtime if I think of something I maybe didnt mention. Metroid Prime 2 echoes log will be quite long so just bare with me as its not really complete yet. I have a lot to say about that game lol. </li>
+                <li>  // [11.17.25] 73laze is just Blaze but with "leet" like language to shape the "B". Not sure why but through the years ive always found it aesthetically pleasing to find different ways to shape letters with numbers. Like "72" kind of looks like R. Or L7 looks like a brutalist D or something. I found it unlocks username capabilities with names that are usually taken. For instance, Blaze was the first ever tag I gave myself at the age of 6, playing Halo 1 on the xbox. Ive never been able to use that tag though, because its always taken. So it has some sentimental value to me. </li>
+                <li>  // [11.14.25] I may be addicted to cleaning up my digital footprint lol </li>
+                <li>  // [11.12.25] fuck the spider guardian in mp2. what the hell is this. </li>
+                <li>  // [11.07.25] finally fixed the text alignment of the p tags here on this page. when I was trying to fix it I thought I had to change the css in my .home container, but nah. was thinking too hard about it. simple fix. </li>
+                <li>  // [11.06.15] played metroid prime 2 echoes for 7 hours straight yesterday. holy shit. cant even remember the last time I did that. this game is so good. </li>
+                <li>  // [11.05.25] long time no update. Mamdani won NY, lets fucking go. I put windows back on my Legion S7 15ach6. Its complete trash but I do love that games typically work out of the box without much tinkering - and thats all that thing will be doing. There wont be much data for microsoft to scrape. Im going to keep tinkering with it to see just how secure I can make it. I fucked up my cachyOS hyprland configs by installing some other dudes dotfiles. I wasnt skilled enough to go back to default, so upon doing a fresh cachyOS install I learned that they just deprecated their hyprland support. I am now rocking linux mint on my thinkpad and I gotta say - its fuckin smooth. apt is nowhere near as fast as pacman, and im gonna miss the AUR, but I do love having a stable distro that I know I wont have to spend hours configuring with. Ill be back on arch one day. I just dont have the time or the skill set to make tinkering a sustainable hobby right now - atleast on that level. </li>
+                <li>  // [10.28.25] my thinkpad t14 gen 1 arrived today, and I gotta say - the keyboard is one of the best ive ever felt. immediately put cachyOS on it. this is so much better than carrying around my humongo gaming laptop. also better battery. </li>
+                <li>  // [10.26.25] halo: campaign evolved stands to be a cheap reflection of todays fps genre and nothing more. how depressing. </li>
+                <li>  // [10.22.25] started playing silent hill 2 remake last night since its free on ps plus extra. I dont normally pay that subscription but I wanna finish death stranding - which is also locked behind that sub lol. let the spooky game playing commence.</li>
+                <li>  // [10.20.25] the neighbor above me may just be a giant heel. </li>
+                <li>  // [10.17.15] first post is up on the posts page: "photos from a faraway world." Check it out :]</li>
+                <li>  // [10.17.25] had a tooth filling fall out Wednesday afternoon. My mouth has to be worth 4k at this point with the amount of fillings in my mouth. Add another 1k on that for repair, another filling and a cleaning. Are we great again yet? </li>
+                <li>  // [10.15.25] explored central park zoo yesterday, and then had some godly, immaculate ramen in midtown new york. snagged some great pictures that ill put up soon as a post. </li>
             </ul>
+            </div>
         </div>
         <div class=traveler>
-            <div class="travelerimg">
-            <img src="images/wanderer.png">
-            </div>
-            <figure>
-            <img src="images/traveler/zeldaseries1.jpg">
-            <figcaption> [01.10.26] TLOZ: Skyward Sword - "zelda series #1" - this game has a really cool watercolor / impressionist era environmental art style that i think does NOT get enough credit. </figcaption>
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries7.jpg">
-            <figcaption> [01.09.26] Metroid Prime 4 - "prime series #7" - uhhh thats a uterus on my map (this game has a lot of yonic architecture)(i just learned what that was) </figcaption
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries6.jpg">
-            <figcaption> [01.08.26] Metroid Prime 4 - "prime series #6" - dont need a switch 2 to appreciate the mood this game has. </figcaption
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries5.jpg">
-            <figcaption> [01.07.26] Metroid Prime 4 - "prime series #5" - lost my bike. good thing metroid can turn into a ball. /s </figcaption>
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries4.jpg">
-            <figcaption> [12.27.25] Metroid Prime 4 - "prime series #4" - aura farming at the local volcano with my sick alien bike </figcaption>
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries3.jpg">
-            <figcaption> [12.27.25] Metroid Prime 4 - "prime series #3" - find myself stopping a lot and just admiring the environment and building architecture. bravo to the artists. </figcation>
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries2.jpg">
-            <figcaption> [12.26.25] Metroid Prime 4 - "prime series #2" - really fucking appreciate cool loading screens. so sick. looks like a wormhole. </figcaption
-            </figure>
-            <figure>
-            <img src="images/traveler/primeseries1.jpg">
-            <figcaption> [12.25.25] Metroid Prime 4 - "prime series #1" - journeys first steps. my big brother gifted it to me for xmas. bout brought me to tears. </figcaption>
-            </figure>
-            <figure>
-            <img src="images/traveler/halflife2.jpg">
-            <figcaption> [12.20.25] Half Life - "death series #2" - fell into a radioactive pit. the resulting view was pretty liminal. </figcaption>
-            </figure>
-            <figure>
-            <img src="images/traveler/halflife1.jpg">
-            <figcaption> [12.20.25] Half Life - "death series #1" - whomever is responsible at Valve 1998 for ensuring you could still look around after your death has my thanks. its such a weirdly cool feature. so anyways, i met my doom smacking my crowbar at a box of explosives. heres my skull. </figcation>
-            </figure>
-            <figure>
-            <img src="images/traveler/l4d2.jpg">
-            <figcaption> [12.12.25] L4D2 - "toilet poetry reading" - the chaos of this game disagrees with you stopping to read, thus Cat was mauled by a hunter to death as Jasodo and I were mesmerized by the toilet poets holy words. </figcaption>
-            </figure>
-        </div>
-        <div class="current1">
-            <img src="images/currentlyplaying.png">
-            <ul>
-                <li> metroid prime 4: beyond on nintendo switch </li>
-                <li> metroid prime 3: corruption on primehack </li>
-                <li> legend of zelda: skyward sword on nintendo switch </li>
-            </ul>
-        </div>
-        <div class="current2">
-            <img src="images/currentlyreading.png">
-            <ul>
-                <li> IT by stephen king </li>
-                <li> DOOM GUY: life in first person by john romero </li>
-            </ul>
-        </div>
-        <div class="music">
-            <img src="images/music.png">
-            <h4> music coming soon! </h4>
-            <h1> :^] </h1>
-        </div>
-        <div class="guestbook">
-            <img src="images/guestbook.png">
-             <h4> cawm soon </h4>
-             <h1> o_O </h1>
-        </div>
-    </div>
+            <h2> [pic log] </h2>
+              <figure>
+              <img src="images/traveler/zeldaseries1.jpg">
+              <figcaption> // [01.10.26] TLOZ: Skyward Sword - "zelda series #1" - this game has a really cool watercolor / impressionist era environmental art style that i think does NOT get enough credit. </figcaption>
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries7.jpg">
+              <figcaption> // [01.09.26] Metroid Prime 4 - "prime series #7" - uhhh thats a uterus on my map (this game has a lot of yonic architecture)(i just learned what that was) </figcaption
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries6.jpg">
+              <figcaption> // [01.08.26] Metroid Prime 4 - "prime series #6" - dont need a switch 2 to appreciate the mood this game has. </figcaption
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries5.jpg">
+              <figcaption> // [01.07.26] Metroid Prime 4 - "prime series #5" - lost my bike. good thing metroid can turn into a ball. /s </figcaption>
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries4.jpg">
+              <figcaption> // [12.27.25] Metroid Prime 4 - "prime series #4" - aura farming at the local volcano with my sick alien bike </figcaption>
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries3.jpg">
+              <figcaption> // [12.27.25] Metroid Prime 4 - "prime series #3" - find myself stopping a lot and just admiring the environment and building architecture. bravo to the artists. </figcation>
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries2.jpg">
+              <figcaption> // [12.26.25] Metroid Prime 4 - "prime series #2" - really fucking appreciate cool loading screens. so sick. looks like a wormhole. </figcaption
+              </figure>
+              <figure>
+              <img src="images/traveler/primeseries1.jpg">
+              <figcaption> // [12.25.25] Metroid Prime 4 - "prime series #1" - journeys first steps. my big brother gifted it to me for xmas. bout brought me to tears. </figcaption>
+              </figure>
+              <figure>
+              <img src="images/traveler/halflife2.jpg">
+              <figcaption> // [12.20.25] Half Life - "death series #2" - fell into a radioactive pit. the resulting view was pretty liminal. </figcaption>
+              </figure>
+              <figure>
+              <img src="images/traveler/halflife1.jpg">
+              <figcaption> // [12.20.25] Half Life - "death series #1" - whomever is responsible at Valve 1998 for ensuring you could still look around after your death has my thanks. its such a weirdly cool feature. so anyways, i met my doom smacking my crowbar at a box of explosives. heres my skull. </figcation>
+              </figure>
+              <figure>
+              <img src="images/traveler/l4d2.jpg">
+              <figcaption> // [12.12.25] L4D2 - "toilet poetry reading" - the chaos of this game disagrees with you stopping to read, thus Cat was mauled by a hunter to death as Jasodo and I were mesmerized by the toilet poets holy words. </figcaption>
+              </figure>
+          </div>
     </div>
 </body>
 <footer>
