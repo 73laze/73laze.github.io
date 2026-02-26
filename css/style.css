@@ -175,9 +175,6 @@ ul li a {
     overflow-y: scroll;
     width: 1404px;
     height: 1000px;
-    border: ridge;
-    border-width: 5px;
-    border-color: darkgoldenrod;
     background-color: black;
 
     p {
