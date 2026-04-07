@@ -78,7 +78,7 @@ ul li a {
 .navbar-logo-wrapper img {
     align-items: left;
     height: auto;
-    max-width: 100%;
+    width: 650px;
 }
 
 .navbar-links {
